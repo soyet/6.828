@@ -93,11 +93,11 @@ the Unix shell.
   * the shell is also a programming/scripting language
   * look at some simple examples of shell operations, how they use different O/S
     abstractions, and how those abstractions fit together.  See
-    [Unix paper](../readings/ritchie78unix.pdf) if you are unfamiliar with the
+    [Unix paper](https://pdos.csail.mit.edu/6.828/2014/readings/ritchie78unix.pdf) if you are unfamiliar with the
     shell.
 
 * [Simplified xv6 sh.c](../homework/sh.c)
-  * See [chapter 0 of xv6 book](../xv6/book-rev8.pdf)
+  * See [chapter 0 of xv6 book](https://pdos.csail.mit.edu/6.828/2014/xv6/book-rev8.pdf)
   * Basic organization: parsing and executing commands (e.g., ls, ls | wc, ls > out)
   * Shell implemented using system calls (e.g., read, write, fork, exec, wait)
     conventions: -1 return value signals error,
@@ -157,4 +157,4 @@ the Unix shell.
   [pipe2.c](l-overview/pipe2.c)
     How would you implement them in sh.c?
 
-* Homework assignment for [shell](../homework/xv6-shell.html) 
+* Homework assignment for [shell](https://pdos.csail.mit.edu/6.828/2014/homework/xv6-shell.html) 
